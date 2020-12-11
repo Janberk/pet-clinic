@@ -1,8 +1,9 @@
 package de.canberk.petclinic.model;
 
-public class Person {
+public class Person extends BaseEntity {
 
     private String firstName;
+    private String lastName;
 
     public String getFirstName() {
         return firstName;
@@ -19,6 +20,4 @@ public class Person {
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
-
-    private String lastName;
 }
